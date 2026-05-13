@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import { EmergencyBar, Navbar, Footer, FloatingWA } from "@/components/site/chrome";
 
 function NotFoundComponent() {
   return (
@@ -113,7 +114,15 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <div className="min-h-screen bg-cream text-text-dark">
+        <EmergencyBar />
+        <Navbar />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+        <FloatingWA />
+      </div>
     </QueryClientProvider>
   );
 }
