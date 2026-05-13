@@ -6,6 +6,7 @@ import {
   Users, Sparkles, Check, Star, Quote, Clock, Lock, Car,
   Facebook, Instagram, Youtube,
 } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   component: Home,
@@ -105,8 +106,8 @@ function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <a href="#" className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-md bg-gradient-to-br from-gold to-gold-light font-display text-xl font-bold text-forest-dark">
-            U
+          <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1 shadow-md ring-1 ring-gold/30">
+            <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full object-contain" />
           </span>
           <span className="leading-tight">
             <span className="block font-display text-lg font-semibold text-cream">Unnati Rehab</span>
@@ -625,8 +626,8 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="grid h-10 w-10 place-items-center rounded-md bg-gradient-to-br from-gold to-gold-light font-display text-xl font-bold text-forest-dark">
-              U
+            <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1">
+              <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full object-contain" />
             </span>
             <div>
               <div className="font-display text-lg font-semibold text-cream">Unnati Rehab</div>
