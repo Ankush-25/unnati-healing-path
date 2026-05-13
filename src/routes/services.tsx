@@ -32,7 +32,7 @@ function ServicesPage() {
         italic="end to end."
         subtitle="From medical detox to long-term aftercare — every step of your recovery handled by experts who treat you like family."
       />
-      <section className="bg-forest-dark py-24 text-cream">
+      <section className="relative overflow-hidden bg-forest-dark py-24 text-cream">
         <div className="absolute inset-0 grid-pattern opacity-30" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
