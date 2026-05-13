@@ -13,6 +13,7 @@ import { Route as WhyUsRouteImport } from './routes/why-us'
 import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as ProgramsRouteImport } from './routes/programs'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -36,6 +37,11 @@ const ProgramsRoute = ProgramsRouteImport.update({
   path: '/programs',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -50,6 +56,7 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
   '/programs': typeof ProgramsRoute
   '/services': typeof ServicesRoute
   '/stories': typeof StoriesRoute
@@ -58,6 +65,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
   '/programs': typeof ProgramsRoute
   '/services': typeof ServicesRoute
   '/stories': typeof StoriesRoute
@@ -67,6 +75,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
   '/programs': typeof ProgramsRoute
   '/services': typeof ServicesRoute
   '/stories': typeof StoriesRoute
@@ -74,13 +83,28 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/programs' | '/services' | '/stories' | '/why-us'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/programs'
+    | '/services'
+    | '/stories'
+    | '/why-us'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/programs' | '/services' | '/stories' | '/why-us'
+  to:
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/programs'
+    | '/services'
+    | '/stories'
+    | '/why-us'
   id:
     | '__root__'
     | '/'
     | '/about'
+    | '/contact'
     | '/programs'
     | '/services'
     | '/stories'
@@ -90,6 +114,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  ContactRoute: typeof ContactRoute
   ProgramsRoute: typeof ProgramsRoute
   ServicesRoute: typeof ServicesRoute
   StoriesRoute: typeof StoriesRoute
@@ -126,6 +151,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProgramsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -146,6 +178,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  ContactRoute: ContactRoute,
   ProgramsRoute: ProgramsRoute,
   ServicesRoute: ServicesRoute,
   StoriesRoute: StoriesRoute,
