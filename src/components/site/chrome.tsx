@@ -81,7 +81,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
           <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1 shadow-md ring-1 ring-gold/30">
-            <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full object-contain" />
+            <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full rounded-full object-cover" />
           </span>
           <span className="leading-tight">
             <span className="block font-display text-lg font-semibold text-cream">Unnati Rehab</span>
@@ -118,7 +118,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1">
-              <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full object-contain" />
+              <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full rounded-full object-cover" />
             </span>
             <div>
               <div className="font-display text-lg font-semibold text-cream">Unnati Rehab</div>
