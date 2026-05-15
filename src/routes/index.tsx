@@ -9,9 +9,9 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "Unnati Nasha Mukti Kendra — Rehab & De-Addiction, Jolly Grant Dehradun" },
+      { title: "Unnati Foundation — Rehab & De-Addiction, Jolly Grant Dehradun" },
       { name: "description", content: "Govt. registered, ISO 9001:2015 certified de-addiction & rehabilitation center above Max Lab, Jolly Grant, Dehradun. 24/7 confidential admission." },
-      { property: "og:title", content: "Unnati Nasha Mukti Kendra — Rehab & De-Addiction, Dehradun" },
+      { property: "og:title", content: "Unnati Foundation — Rehab & De-Addiction, Dehradun" },
       { property: "og:description", content: "A serene healing sanctuary in the Himalayan foothills. Confidential, judgment-free recovery." },
     ],
   }),

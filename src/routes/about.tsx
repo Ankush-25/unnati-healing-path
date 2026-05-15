@@ -6,9 +6,9 @@ export const Route = createFileRoute("/about")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "About — Unnati Nasha Mukti Kendra, Dehradun" },
+      { title: "About — Unnati Foundation, Dehradun" },
       { name: "description", content: "Founded in 2015, Unnati is a Govt. registered, ISO 9001:2015 certified rehab in Jolly Grant, Dehradun. Trust, dignity & science." },
-      { property: "og:title", content: "About Unnati Nasha Mukti Kendra" },
+      { property: "og:title", content: "About Unnati Foundation" },
       { property: "og:description", content: "A sanctuary built on trust, dignity & science." },
     ],
   }),
@@ -41,7 +41,7 @@ function AboutPage() {
               </p>
               <div className="mt-8 inline-flex items-center gap-3 rounded-full bg-gold/10 px-4 py-2 text-sm text-gold-light">
                 <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-                Director, Unnati Rehab
+                Director, Unnati Foundation
               </div>
             </div>
           </div>

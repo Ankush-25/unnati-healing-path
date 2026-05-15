@@ -6,9 +6,9 @@ export const Route = createFileRoute("/services")({
   component: ServicesPage,
   head: () => ({
     meta: [
-      { title: "Services — De-Addiction & Recovery | Unnati Rehab Dehradun" },
-      { name: "description", content: "Medical detox, alcohol & drug de-addiction, counseling, family therapy and tobacco cessation at Unnati Nasha Mukti Kendra, Dehradun." },
-      { property: "og:title", content: "Our Services — Unnati Rehab" },
+      { title: "Services — De-Addiction & Recovery | Unnati Foundation Dehradun" },
+      { name: "description", content: "Medical detox, alcohol & drug de-addiction, counseling, family therapy and tobacco cessation at Unnati Foundation, Dehradun." },
+      { property: "og:title", content: "Our Services — Unnati Foundation" },
       { property: "og:description", content: "Comprehensive de-addiction care, end to end." },
     ],
   }),

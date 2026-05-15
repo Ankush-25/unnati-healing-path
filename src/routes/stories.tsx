@@ -6,9 +6,9 @@ export const Route = createFileRoute("/stories")({
   component: StoriesPage,
   head: () => ({
     meta: [
-      { title: "Stories of Hope — Recovery Testimonials | Unnati Rehab" },
-      { name: "description", content: "Real recovery stories from families and individuals who found freedom at Unnati Nasha Mukti Kendra, Dehradun." },
-      { property: "og:title", content: "Stories of Hope — Unnati Rehab" },
+      { title: "Stories of Hope — Recovery Testimonials | Unnati Foundation" },
+      { name: "description", content: "Real recovery stories from families and individuals who found freedom at Unnati Foundation, Dehradun." },
+      { property: "og:title", content: "Stories of Hope — Unnati Foundation" },
       { property: "og:description", content: "Real lives. Real recovery." },
     ],
   }),

@@ -5,9 +5,9 @@ export const Route = createFileRoute("/programs")({
   component: ProgramsPage,
   head: () => ({
     meta: [
-      { title: "Programs — 30, 90 & 180 Day Recovery | Unnati Rehab" },
-      { name: "description", content: "Residential recovery programs of 30 days, 90 days and 6 months at Unnati Nasha Mukti Kendra, Dehradun." },
-      { property: "og:title", content: "Programs — Unnati Rehab" },
+      { title: "Programs — 30, 90 & 180 Day Recovery | Unnati Foundation" },
+      { name: "description", content: "Residential recovery programs of 30 days, 90 days and 6 months at Unnati Foundation, Dehradun." },
+      { property: "og:title", content: "Programs — Unnati Foundation" },
       { property: "og:description", content: "Built for every stage of your recovery journey." },
     ],
   }),

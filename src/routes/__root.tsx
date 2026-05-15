@@ -73,10 +73,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Unnati Nasha Mukti Kendra — De-Addiction & Rehab in Dehradun" },
+      { title: "Unnati Foundation" },
       { name: "description", content: "Govt. registered, ISO certified de-addiction & rehabilitation center at Jolly Grant, Dehradun. 24/7 confidential help for alcohol, drug & tobacco recovery." },
-      { name: "author", content: "Unnati Nasha Mukti Kendra" },
-      { property: "og:title", content: "Unnati Nasha Mukti Kendra — Rehab & De-Addiction, Dehradun" },
+      { name: "author", content: "Unnati Foundation" },
+      { property: "og:title", content: "Unnati Foundation" },
       { property: "og:description", content: "A serene healing sanctuary in the Himalayan foothills. Medical detox, counseling, 12-step recovery and aftercare — judgment-free and confidential." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

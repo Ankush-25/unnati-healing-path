@@ -6,9 +6,9 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact — Unnati Nasha Mukti Kendra, Jolly Grant Dehradun" },
-      { name: "description", content: "Reach Unnati Rehab 24/7 for confidential admission. Above Max Lab, Jolly Grant, Dehradun, Uttarakhand." },
-      { property: "og:title", content: "Contact Unnati Rehab" },
+      { title: "Contact — Unnati Foundation, Jolly Grant Dehradun" },
+      { name: "description", content: "Reach Unnati Foundation 24/7 for confidential admission. Above Max Lab, Jolly Grant, Dehradun, Uttarakhand." },
+      { property: "og:title", content: "Contact Unnati Foundation" },
       { property: "og:description", content: "Recovery starts with a single call. Available 24/7." },
     ],
   }),
@@ -59,7 +59,7 @@ function ContactPage() {
 
           <div className="reveal overflow-hidden rounded-3xl border border-forest/10 shadow-md" style={{ transitionDelay: "120ms" }}>
             <iframe
-              title="Unnati Rehab location"
+              title="Unnati Foundation location"
               src="https://www.google.com/maps?q=Max+Hospital+Jolly+Grant+Dehradun&output=embed"
               className="h-full min-h-[420px] w-full"
               loading="lazy"

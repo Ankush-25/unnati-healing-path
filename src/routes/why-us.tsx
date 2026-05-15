@@ -6,9 +6,9 @@ export const Route = createFileRoute("/why-us")({
   component: WhyUsPage,
   head: () => ({
     meta: [
-      { title: "Why Choose Unnati — Medically-Led Rehab in Dehradun" },
+      { title: "Why Choose Unnati Foundation in Dehradun" },
       { name: "description", content: "Govt. registered, ISO certified, medically-led de-addiction with trained psychologists in a serene Himalayan setting." },
-      { property: "og:title", content: "Why Choose Unnati Rehab" },
+      { property: "og:title", content: "Why Choose Unnati Foundation" },
       { property: "og:description", content: "More than treatment — a place to truly heal." },
     ],
   }),

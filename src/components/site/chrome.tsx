@@ -81,12 +81,12 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
           <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1 shadow-md ring-1 ring-gold/30">
-            <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full rounded-full object-cover" />
+            <img src={logo} alt="Unnati Foundation logo" className="h-full w-full rounded-full object-cover" />
           </span>
           <span className="leading-tight">
-            <span className="block font-display text-lg font-semibold text-cream">Unnati Rehab</span>
+            <span className="block font-display text-lg font-semibold text-cream">Unnati Foundation</span>
             <span className="block text-[11px] tracking-wider text-gold-light/80 uppercase">
-              Nasha Mukti Kendra
+              Foundation
             </span>
           </span>
         </Link>
@@ -118,11 +118,11 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <span className="grid h-12 w-12 place-items-center rounded-full bg-cream/95 p-1">
-              <img src={logo} alt="Unnati Nasha Mukti Kendra logo" className="h-full w-full rounded-full object-cover" />
+              <img src={logo} alt="Unnati Foundation logo" className="h-full w-full rounded-full object-cover" />
             </span>
             <div>
-              <div className="font-display text-lg font-semibold text-cream">Unnati Rehab</div>
-              <div className="text-[11px] uppercase tracking-wider text-gold-light/80">Nasha Mukti Kendra</div>
+              <div className="font-display text-lg font-semibold text-cream">Unnati Foundation</div>
+              <div className="text-[11px] uppercase tracking-wider text-gold-light/80">Foundation</div>
             </div>
           </div>
           <p className="mt-5 max-w-xs text-sm text-cream/60">
@@ -170,7 +170,7 @@ export function Footer() {
 
       <div className="border-t border-cream/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-xs text-cream/50 sm:px-6 md:flex-row">
-          <span>© {new Date().getFullYear()} Unnati Nasha Mukti Kendra. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Unnati Foundation. All rights reserved.</span>
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full border border-cream/15 px-3 py-1">Govt. Registered</span>
             <span className="rounded-full border border-cream/15 px-3 py-1">ISO 9001:2015</span>
