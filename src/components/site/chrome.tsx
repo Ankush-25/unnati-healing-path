@@ -5,7 +5,7 @@ import {
 } from "lucide-react";
 import logo from "@/assets/logo.png";
 
-export const PHONE = "+919999000111";
+export const PHONE = "+919999000111"; 
 export const WA = "https://wa.me/919999000111";
 
 export function useReveal() {
